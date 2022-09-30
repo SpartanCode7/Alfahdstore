@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
         <div className="brand__icon">
             <Link to="">
-                <img src="https://alfahdstore.com/wp-content/uploads/2022/06/new-logo-1.png" alt="Logo" />
+                {/* <img src="https://alfahdstore.com/wp-content/uploads/2022/06/new-logo-1.png" alt="Logo" /> */}
             </Link>
         </div>
         <div className="nav">

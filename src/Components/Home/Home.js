@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <div className="home">
-         <div className="banner">
+      <div className="banner">
           <div className="container">
               <div className="box">
                   <h1>Transform Your Furniture<br />with The <b>New Covers</b></h1>
@@ -33,8 +33,7 @@ function Home() {
                     {cats.map((cat) => {
                       return (
                           <div className="box">
-                              console.log(cat)
-                              {/* <Link to="/bedding"><h1>{cat}</h1></Link> */}
+                              <Link to={cat}><h1>{cat}</h1></Link>
                           </div>
                       );
                    })}

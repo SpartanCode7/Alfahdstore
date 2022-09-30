@@ -19,8 +19,6 @@ import Home from './Components/Home/Home'
 
 function App() {
 
-
-
 return (
   <div className="home">
       <Router>
@@ -37,7 +35,7 @@ return (
           </Routes>
       </Router>
       
-      <Footer />
+      {/* <Footer /> */}
   </div>
 )
 }
